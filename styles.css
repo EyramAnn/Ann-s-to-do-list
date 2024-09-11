@@ -156,5 +156,71 @@ select{
     background: #fff;
     color: #012077;
     
+}
 
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 90%;  
+        height: auto; 
+    }
+
+    form input {
+        width: 75%;  
+        font-size: 1.2rem;  
+        padding: 0.4rem;
+    }
+
+    form button {
+        font-size: 1.5rem; 
+        padding: 0.5rem 1rem; 
+        width: 20%; 
+    }
+
+    .select select {
+        font-size: 1rem;  
+        padding: 0.6rem;  
+        width: 100%;  
+    }
+
+    .todo-list {
+        width: 100%;  
+    }
+
+    header {
+        font-size: 1.5rem; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .container {
+        padding: 1rem;  
+        width: 100%;  
+    }
+
+    form input {
+        width: 70%;  
+        font-size: 1rem;  
+    }
+
+    form button {
+        font-size: 1.2rem; 
+        padding: 0.3rem 0.8rem;
+        width: 25%;
+    }
+
+    .select select {
+        font-size: 0.9rem;  
+        padding: 0.5rem;  
+        width: 100%;  
+    }
+
+    .todo-list {
+        width: 100%;  
+    }
+
+    header {
+        font-size: 1.2rem; 
+    }
 }
