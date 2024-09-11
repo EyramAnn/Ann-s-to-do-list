@@ -166,15 +166,17 @@ select{
     }
 
     form input {
-        width: 75%;  
+        width: 95%;  
         font-size: 1.2rem;  
         padding: 0.4rem;
+        
     }
 
     form button {
         font-size: 1.5rem; 
-        padding: 0.5rem 1rem; 
+        padding: 0.2rem 1rem; 
         width: 20%; 
+    
     }
 
     .select select {
@@ -207,7 +209,7 @@ select{
     form button {
         font-size: 1.2rem; 
         padding: 0.3rem 0.8rem;
-        width: 25%;
+        width: 20%;
     }
 
     .select select {
