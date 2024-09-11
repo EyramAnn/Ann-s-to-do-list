@@ -187,7 +187,7 @@ select{
 
     .select::after {
         top: 50%;
-        left: 70%; 
+        left: 90%; 
         transform: translate(-50%, -50%);
         padding: 0;
     }
@@ -225,8 +225,8 @@ select{
         width: 100%;  
     }
 
-
     .select::after {
+        top: 50%;
         left: 90%; 
         padding: 0;
     }
