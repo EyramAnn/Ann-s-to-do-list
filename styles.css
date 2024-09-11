@@ -226,7 +226,7 @@ select{
     }
 
     .select::after {
-        top: 50%;
+        top: 40%;
         left: 80%; 
         padding: 0;
     }
