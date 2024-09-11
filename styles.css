@@ -187,7 +187,7 @@ select{
 
     .select::after {
         top: 50%;
-        left: 90%; 
+        left: 95%; 
         transform: translate(-50%, -50%);
         padding: 0;
     }
@@ -227,7 +227,7 @@ select{
 
     .select::after {
         top: 50%;
-        left: 90%; 
+        left: 80%; 
         padding: 0;
     }
     .todo-list {
