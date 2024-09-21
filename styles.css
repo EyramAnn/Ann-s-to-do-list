@@ -122,8 +122,7 @@ form button:hover{
     transform: translateY(8rem) rotate(20deg);
     opacity: 0;
 }
-
-select{
+select {
     border: none;
     outline: none;
     appearance: none;
@@ -132,32 +131,26 @@ select{
     background: #fff;
     color: blue;
     padding: 1rem;
-    width: 9rem;
-    overflow: hidden;
+    width: 100%; /* Change to 100% for responsiveness */
+    min-width: 200px; /* Set a minimum width */
+    font-size: 1rem; /* Ensure readable font size */
 }
 
-.select{
+.select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
-} 
+}
 
-.select::after{
+.select::after {
     content: "\25BC";
     position: absolute;
     color: #012077;
-    top: 0;
-    right: 0;
-    padding: 1rem;
+    top: 50%; /* Center the arrow */
+    right: 1rem; /* Space from the right */
+    transform: translateY(-50%); /* Center vertically */
     pointer-events: none;
 }
-
-.select:hover::after{
-    background: #fff;
-    color: #012077;
-    
-}
-
 @media only screen and (max-width: 768px) {
 
     .container {
@@ -178,18 +171,15 @@ select{
         width: 20%; 
     
     }
-
     .select select {
-        font-size: 1rem;  
-        padding: 0.6rem;  
-        width: 100%;  
+        padding: 0.8rem; /* Adjust padding */
+        font-size: 1rem; /* Increase font size for readability */
     }
 
     .select::after {
-        top: 50%;
-        left: 95%; 
-        transform: translate(-50%, -50%);
-        padding: 0;
+        top: 50%; /* Center the arrow */
+        right: 1rem; /* Keep spacing */
+        transform: translateY(-50%); /* Center vertically */
     }
 
     .todo-list {
@@ -218,17 +208,13 @@ select{
         padding: 0.3rem 0.8rem;
         width: 20%;
     }
-
     .select select {
-        font-size: 0.9rem;  
-        padding: 0.5rem;  
-        width: 100%;  
+        font-size: 1rem; /* Maintain a consistent font size */
+        padding: 0.8rem; /* Adjust padding */
     }
 
     .select::after {
-        top: 40%;
-        left: 80%; 
-        padding: 0;
+        right: 1rem; /* Keep spacing */
     }
     .todo-list {
         width: 100%;  
